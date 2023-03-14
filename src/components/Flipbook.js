@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import HTMLFlipBook from "react-pageflip";
 import { pdfjs, Document, Page as ReactPdfPage } from "react-pdf";
 import "../styles.css";
-import samplePDF from "../emotion.pdf";
+import samplePDF from "../sample.pdf";
 
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
@@ -27,6 +27,7 @@ export default function Flipbook() {
         <Page pageNumber={1} />
         <Page pageNumber={2} />
         <Page pageNumber={3} />
+        <Page pageNumber={4} />
       </HTMLFlipBook>
     </Document>
     </div>

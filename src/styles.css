@@ -16,7 +16,7 @@ body {
     justify-content: space-between;
     align-items: stretch;
     gap: 2rem;
-    padding: 0 1rem;
+    padding: 1.5rem;
 }
 
 .site-title {
@@ -48,13 +48,114 @@ body {
     background-color:rgb(96, 124, 91) ;
 }
 
-.flipbookstyle {
+.home {
+    margin-top: 3rem;
+}
+
+.img1 {
+    display: flex;
+    margin-right: 0rem;
+    padding: 1rem;;
+}
+
+.hometopic {
+    font-family: 'popins';
+    font-weight: bold;
+    font-size: 5rem;
+    justify-content: center;
+}
+
+.homeCont {
+    margin-left: 1rem;
+    margin-top: .2rem;
+    font-size: 1.0rem;
+    font-weight: bold;
+    color: #545454;
+    justify-content: center;
+    align-items: center;
+    font-family: 'popins'; 
+    margin: 2px;
+}
+
+.home_text .p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.homebtns {
+    height: 70px;
+    width: 150px;
+    background-color: #d5e5e1;
+    border: rgb(9, 0, 15);
+    border: 1px;
+    border-radius: 5px;
+    color: goldenrod;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-inline: 1rem;  
+    outline: #333;
+}
+
+.homebtns:hover {
+    background-color: rgb(96, 124, 91);
+    color: wheat;
+}
+  
+
+.down_btn {
+    margin-left: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup_inner {
+    position: relative;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 640px;
+}
+
+.popup_inner .close-btn {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+}
+
+.flipbookstyle {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #d5e5e1;
+    margin-bottom: 0rem;
+    padding: 2rem;
+}
+
+.download {
+    margin-top: 10rem;
 }
 
 .react-pdf__Document {
@@ -65,4 +166,33 @@ display: inline-block;
 width: 300px;
 height: 424px;
 }
+
+.pdfs{
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem; */
+    margin-left: .50rem;
+}
+
+.down_btn {
+    height: 70px;
+    width: 150px;
+    background-color: #d5e5e1;
+    border: rgb(9, 0, 15);
+    border: 1px;
+    border-radius: 5px;
+    color: goldenrod;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-inline: 1rem;
+}
+
+.down_btn:hover {
+    background-color: rgb(96, 124, 91);
+    color: wheat;
+}
   
+.contactUs {
+    margin-top: 8rem;
+}

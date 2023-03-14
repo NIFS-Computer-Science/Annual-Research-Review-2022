@@ -4,7 +4,10 @@ import "./styles.css"
 import Downloads from './components/Downloads';
 import Flipbook from './components/Flipbook';
 import Contactus from './components/Contactus';
+import Footer from './components/Footer';
+import Popup from './components/Popup';
 import React from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   
@@ -16,6 +19,10 @@ function App() {
       <Flipbook />
       <Downloads />
       <Contactus />
+      {/* <Popup trigger={buttonPopup}> <h3>MY POPUP</h3> </Popup> */}
+      <Footer />
+      <Popup />
+      
 
       </div>
   );

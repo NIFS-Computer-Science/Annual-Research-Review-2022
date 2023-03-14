@@ -4,11 +4,11 @@ export default function Navbar() {
     return (
         <nav className="nav">
         <a href="/" className="site-title">
-        NIFS
+        Annual Research Review 2022
         </a>
         <ul>
             <li className="active"> 
-                <Link to="home" spy={true} smooth={true} offset={50} duration={500} >Home</Link>
+                <Link to="home" spy={true} smooth={true} offset={50} duration={500} >Welcome</Link>
             </li>
             <li className="active">
                 <Link to="flip" spy={true} smooth={true} offset={50} duration={500}>Read Online</Link>

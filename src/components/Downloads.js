@@ -7,7 +7,7 @@ export default function Downloads() {
 
     return (
     <div className='download' id='down'> 
-    <h3> Annual Research Review PDFs</h3>
+    <h3> Download Previous Annual Research Reviews</h3>
   
 
         <div className='downpdf'>

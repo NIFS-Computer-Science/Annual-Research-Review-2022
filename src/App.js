@@ -18,7 +18,7 @@ function App() {
       <Home />
       <Flipbook />
       <Downloads />
-      <Contactus />
+      {/* <Contactus /> */}
       {/* <Popup trigger={buttonPopup}> <h3>MY POPUP</h3> </Popup> */}
       <Footer />
       <Popup />

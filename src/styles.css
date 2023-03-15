@@ -2,6 +2,7 @@
 
 * {
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -10,8 +11,8 @@ body {
 }
 
 .nav {
-    background-color: darkslategrey;
-    color: wheat;
+    background-color: #283149;
+    color: #DBEDF3;
     display: flex;
     justify-content: space-between;
     align-items: stretch;
@@ -52,7 +53,7 @@ body {
 }
 
 .home {
-    margin-top: 3rem;
+    background-color: #DBEDF3;
 }
 
 .img1 {
@@ -62,7 +63,6 @@ body {
 }
 
 .hometopic {
-    font-family: 'popins';
     font-weight: bold;
     font-size: 5rem;
     justify-content: center;
@@ -80,6 +80,12 @@ body {
     margin: 2px;
 }
 
+.home_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .home_text .p {
     font-size: 16px;
     line-height: 1.5;
@@ -90,11 +96,11 @@ body {
 }
 
 .homebtns {
-    background-color: #d5e5e1;
+    background-color: #283149;;
     border: rgb(9, 0, 15);
     border: 1px;
     border-radius: 5px;
-    color: goldenrod;
+    color: #DBEDF3;
     font-size: 1.5rem;
     font-weight: bold;
     padding-inline: 1rem;  
@@ -103,8 +109,8 @@ body {
 }
 
 .homebtns:hover {
-    background-color: rgb(96, 124, 91);
-    color: wheat;
+    background-color: #00818A;
+    color: #DBEDF3;
     cursor: pointer;
 }
   
@@ -112,6 +118,7 @@ body {
 .down_btn {
     align-items: center;
     justify-content: center;
+
 }
 
 .popup {
@@ -152,7 +159,7 @@ body {
 .flipbookstyle {
     display: flex;
     justify-content: center;
-    background-color: #333;
+    background-color: #283149;
     padding: 20px;
 }
 
@@ -165,13 +172,14 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 1rem;
+    background-color: #DBEDF3;
+    padding: 50px;
 }
 
 .download h3 {
     display: flex;
     justify-content: center;
-    padding: 20px;
+    padding-bottom:  20px;
 }
 
 .downpdf {
@@ -200,19 +208,19 @@ height: 424px;
 .down_btn {
     height: 70px;
     width: 150px;
-    background-color: #d5e5e1;
+    background-color: #283149;
     border: rgb(9, 0, 15);
     border: 1px;
     border-radius: 5px;
-    color: goldenrod;
+    color: #DBEDF3;
     font-size: 1.5rem;
     font-weight: bold;
     padding-inline: 1rem;
 }
 
 .down_btn:hover {
-    background-color: rgb(96, 124, 91);
-    color: wheat;
+    background-color: #00818A;
+    color: #DBEDF3;
 }
   
 .contactUs {
@@ -223,3 +231,36 @@ height: 424px;
     width: 100px;
     padding-bottom: 20px;
 }
+
+/* footer styles */
+.footer {
+    height: 200px;
+    background-color: #283149;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.sb_footer-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: left;
+}
+
+.socialimg {
+    width: 30px;
+    margin: 10px;
+}
+
+.info {
+    color: #DBEDF3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+

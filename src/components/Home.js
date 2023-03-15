@@ -21,7 +21,6 @@ export default function Home() {
         </Col>
         <Col md={8} >
           <div className='home_text'>
-          
             <div className='hometopic'>Annual Research Review 2022</div>
             <p>Takimata gubergren et sed justo labore magna elitr sed voluptua sadipscing, elitr ipsum lorem diam no ipsum, labore eos dolore et aliquyam ut magna sea sed, dolor gubergren dolores takimata sit vero magna gubergren, et et takimata et eos erat. Voluptua sanctus lorem gubergren erat. Dolor eirmod no no dolor no, et dmy no vero dolsea eos, ea.</p>
               <Container>

@@ -15,12 +15,13 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: stretch;
-    gap: 2rem;
-    padding: 1.5rem;
+    padding: 20px;
 }
 
 .site-title {
     font-size: 2rem;
+    pointer-events: none;
+    margin-left: 20px;
 }
 
 .nav ul {
@@ -37,15 +38,17 @@ body {
     height: 100%;
     display: flex;
     align-items: center;
-    padding: .25rem;
+    padding: 10px;
 }
 
 .nav li:active {
     background-color: #d5e5e1;
+    cursor: pointer;
 }
 
 .nav li:hover {
     background-color:rgb(96, 124, 91) ;
+    cursor: pointer;
 }
 
 .home {
@@ -82,9 +85,11 @@ body {
     line-height: 1.5;
 }
 
+.homebtn{
+    text-decoration: none;
+}
+
 .homebtns {
-    height: 70px;
-    width: 150px;
     background-color: #d5e5e1;
     border: rgb(9, 0, 15);
     border: 1px;
@@ -94,16 +99,17 @@ body {
     font-weight: bold;
     padding-inline: 1rem;  
     outline: #333;
+    text-align: center;
 }
 
 .homebtns:hover {
     background-color: rgb(96, 124, 91);
     color: wheat;
+    cursor: pointer;
 }
   
 
 .down_btn {
-    margin-left: 2rem;
     align-items: center;
     justify-content: center;
 }
@@ -144,18 +150,33 @@ body {
 }
 
 .flipbookstyle {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
     display: flex;
     justify-content: center;
-    align-items: center;
-    background-color: #d5e5e1;
-    margin-bottom: 0rem;
-    padding: 2rem;
+    background-color: #333;
+    padding: 20px;
+}
+
+.flipbook {
+    background-color: green;
+    padding: 20px;
 }
 
 .download {
-    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.download h3 {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.downpdf {
+    display: flex;
+    justify-content: space-around;
 }
 
 .react-pdf__Document {
@@ -168,11 +189,12 @@ height: 424px;
 }
 
 .pdfs{
-    /* display: flex;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    margin-top: 2rem; */
-    margin-left: .50rem;
+    text-decoration: none;
+
 }
 
 .down_btn {
@@ -195,4 +217,9 @@ height: 424px;
   
 .contactUs {
     margin-top: 8rem;
+}
+
+.pdf-thumbnail {
+    width: 100px;
+    padding-bottom: 20px;
 }

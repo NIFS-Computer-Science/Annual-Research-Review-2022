@@ -16,9 +16,9 @@ export default function Navbar() {
             <li className="active"> 
                 <Link to="down" spy={true} smooth={true} offset={50} duration={500} >Downloads</Link>
             </li>
-            <li className="active">
+            {/* <li className="active">
                 <Link to="contact" spy={true} smooth={true} offset={50} duration={500}>Contact Us</Link>
-            </li>
+            </li> */}
         </ul>
 
         </nav>

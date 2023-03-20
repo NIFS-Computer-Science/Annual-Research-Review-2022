@@ -8,6 +8,7 @@ import Footer from './components/Footer';
 import Popup from './components/Popup';
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import BootstrapCarousel from './components/BootstrapCarousel';
 
 function App() {
   
@@ -16,6 +17,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Home />
+      {/* <BootstrapCarousel /> */}
       <Flipbook />
       <Downloads />
       {/* <Contactus /> */}

@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
 * {
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
@@ -48,30 +48,38 @@ body {
 }
 
 .nav li:hover {
-    background-color:rgb(96, 124, 91) ;
+    background-color: #d5e5e1;
     cursor: pointer;
+    color: #283149;
+    transition-duration: 0.7s;
 }
 
 .home {
-    background-color: #DBEDF3;
+    background-image: url("images/background.jpg");
 }
 
 .img1 {
     display: flex;
     margin-right: 0rem;
-    padding: 1rem;;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
 }
 
 .hometopic {
     font-weight: bold;
     font-size: 5rem;
     justify-content: center;
+    font-family: playfair display;
+    padding-top: 25px;
+    line-height: 1.1em;
 }
 
 .homeCont {
     margin-left: 1rem;
-    margin-top: .2rem;
-    font-size: 1.0rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
     font-weight: bold;
     color: #545454;
     justify-content: center;
@@ -86,8 +94,9 @@ body {
     justify-content: space-between;
 }
 
-.home_text .p {
-    font-size: 16px;
+.paragrapgh {
+    padding-top: 20px;
+    font-size: 20px;
     line-height: 1.5;
 }
 
@@ -106,6 +115,9 @@ body {
     padding-inline: 1rem;  
     outline: #333;
     text-align: center;
+    transition-duration: 0.8s;
+    width: 250px;
+    height: 40px
 }
 
 .homebtns:hover {
@@ -116,9 +128,9 @@ body {
   
 
 .down_btn {
-    align-items: center;
+    display: flex;
     justify-content: center;
-
+    align-items: center;
 }
 
 .popup {
@@ -131,22 +143,49 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .popup_inner {
-    position: relative;
-    background-color: white;
+    /* position: fixed;
+    background-color:  #eaecf0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 640px;
     padding: 1rem;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    max-width: 640px;
+    color:  #283149; */
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Add a shadow effect */
+    max-width: 80%;
+    max-height: 80%;
+    overflow: auto;
 }
 
-.popup_inner .close-btn {
+.down_links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    flex-direction: row;
+    color: #DBEDF3;
+}
+
+.popup_inner a{
+    text-decoration: none;
+    color:  #283149;
+}
+
+
+.close-btn {
     position: absolute;
     top: 16px;
     right: 16px;
@@ -154,6 +193,38 @@ body {
     font-weight: bold;
     color: #333;
     cursor: pointer;
+    background-color: #283149;
+}
+
+.close-btn:hover {
+    color: #000;
+    transition-duration: 0.5s;
+}
+
+.down_title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #545454;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+}
+
+.imgSlider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    padding: 1rem;
+}
+
+.image_slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    padding: 1rem;
+    background-color: #DBEDF3;
 }
 
 .flipbookstyle {
@@ -174,12 +245,15 @@ body {
     justify-content: center;
     background-color: #DBEDF3;
     padding: 50px;
+    font-family: playfair display;
 }
 
 .download h3 {
     display: flex;
     justify-content: center;
     padding-bottom:  20px;
+    font-weight: bold;
+    font-family: playfair display;
 }
 
 .downpdf {
@@ -202,20 +276,20 @@ height: 424px;
     justify-content: space-between;
     align-items: center;
     text-decoration: none;
-
 }
 
 .down_btn {
-    height: 70px;
-    width: 150px;
+    height: 45px;
+    width: 100px;
     background-color: #283149;
     border: rgb(9, 0, 15);
     border: 1px;
     border-radius: 5px;
     color: #DBEDF3;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: bold;
     padding-inline: 1rem;
+    transition-duration: 0.8s;
 }
 
 .down_btn:hover {
@@ -228,7 +302,7 @@ height: 424px;
 }
 
 .pdf-thumbnail {
-    width: 100px;
+    width: 180px;
     padding-bottom: 20px;
 }
 
@@ -251,9 +325,17 @@ height: 424px;
     text-align: left;
 }
 
+.socialimg:hover {
+    color: #00060c;
+    cursor: pointer;
+}
+
 .socialimg {
-    width: 30px;
-    margin: 10px;
+    width: 50px;
+    height: 20px;;
+    margin: 12px;
+    color: #DBEDF3;
+    transition-duration: 0.5s;
 }
 
 .info {
@@ -262,5 +344,4 @@ height: 424px;
     flex-direction: column;
     align-items: center;
 }
-
 

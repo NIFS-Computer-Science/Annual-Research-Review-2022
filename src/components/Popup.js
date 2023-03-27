@@ -1,7 +1,7 @@
 import { faClose } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-export default function Contactus(props) {
+export default function Popup(props) {
     
     return (props.trigger) ? (
         <div className='popup'> 

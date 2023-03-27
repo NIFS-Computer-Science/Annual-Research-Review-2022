@@ -46,10 +46,10 @@ export default function Footer() {
             </div>
             <div  className="info">
                 <p>
-                    Info | Support | Marketing
+                    2023 All Rights Resevred | Annual Reserch Review 2022 Committee | <a href="https://nifs.ac.lk" className="footerdetails">National Institute of Fundamental Studies</a>
                 </p>
                 <p>
-                    Terms of Use | Privacy Policy
+                    Engineered by Computer Science, Mathamatics and Statistics Project 
                 </p>
             </div>
         </div>
